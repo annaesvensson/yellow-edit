@@ -14,13 +14,13 @@ Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. M
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstellen. Gehe zur Anmeldeseite. Du kannst ein Benutzerkonto erstellen und dein Kennwort ändern. Der Webmaster muss neue Benutzerkonten genehmigen. Die E-Mail des Webmasters wird in der Datei `system/extensions/yellow-system.ini` festgelegt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-command/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-command/tree/main/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto löscht
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu löschen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst dein eigenes Benutzerkonto jederzeit löschen. Nachdem du bestätigt hast dass du dein Benutzerkonto löschen möchtest, erhältst du eine abschließende E-Mail und das Benutzerkonto wird entfernt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-command/README-de.md) zu löschen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user remove` gefolgt von E-Mail. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-command/tree/main/README-de.md) zu löschen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user remove` gefolgt von E-Mail. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto beschränkt
 
