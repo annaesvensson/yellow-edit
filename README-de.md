@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.8.63
+# Edit 0.8.64
 
 Webseite im Webbrowser bearbeiten.
 
@@ -213,4 +213,4 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 ## Entwickler
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
