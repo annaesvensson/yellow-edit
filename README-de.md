@@ -2,7 +2,7 @@
 
 # Edit 0.8.64
 
-Webseite im Webbrowser bearbeiten.
+Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
