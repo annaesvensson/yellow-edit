@@ -2,7 +2,7 @@
 
 # Edit 0.8.64
 
-Redigera din webbplats i en webbläsare.
+Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Skärmdump"></p>
 
