@@ -2,7 +2,7 @@
 
 # Edit 0.8.64
 
-Edit your website in a web browser.
+Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Screenshot"></p>
 
