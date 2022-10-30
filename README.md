@@ -171,7 +171,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `Email` = email of the user  
 `Name` = name of the user  
 `Description` = description of the user  
-`Language` = language of the user  
+`Language` = language of the user, e.g. `en`  
 `Access` = user access rights, [supported access rights](#settings-access)  
 `Home` = home page location  
 `Hash` = encrypted password  

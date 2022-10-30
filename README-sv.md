@@ -171,7 +171,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `Email` = användarens email  
 `Name` = användarens namn  
 `Description` = beskrivning av användaren  
-`Language` = språket av användaren  
+`Language` = språket av användaren, t.ex. `sv`  
 `Access` = användarrättigheter, [stödda rättigheter](#inställningar-access)  
 `Home` = plats för hemsidan  
 `Hash` = krypterat lösenord  
