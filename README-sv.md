@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.8.69
+# Edit 0.8.70
 
 Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
 
@@ -106,7 +106,7 @@ Konfigurera olika verktygsfältknappar i inställningar:
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emoji
 ```
 
 Konfigurera olika uppladdningsplatser i inställningar:

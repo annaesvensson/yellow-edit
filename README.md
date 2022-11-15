@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.8.69
+# Edit 0.8.70
 
 Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
 
@@ -106,7 +106,7 @@ Configuring different toolbar buttons in the settings:
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emojiawesome
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emoji
 ```
 
 Configuring different upload locations in the settings:
