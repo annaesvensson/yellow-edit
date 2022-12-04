@@ -8,7 +8,7 @@ Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/
 
 ## How to edit a website in a web browser
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files, upload media files and change system settings. It is a great way to update your website. To show an edit link on your website use an `[edit]` shortcut.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files, upload media files and change settings. It is a great way to update your website. To show an edit link on your website use an `[edit]` shortcut.
 
 ## How to create a user account
 
@@ -105,8 +105,8 @@ Configuring different toolbar buttons in the settings:
 ```
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emoji
 ```
 
 Configuring different upload locations in the settings:
@@ -188,7 +188,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `delete` = user can delete page  
 `restore` = user can restore deleted page  
 `upload` = user can upload media files  
-`configure` = user can configure website  
+`configure` = user can configure settings  
 `update` = user can update website  
 
 <a id="settings-status"></a>The following user status values are supported:

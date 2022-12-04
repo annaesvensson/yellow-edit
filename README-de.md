@@ -8,7 +8,7 @@ Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/
 
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
-Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebauten Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten, Mediendateien hochzuladen und Systemeinstellungen zu ändern. Es ist eine großartige Art Webseiten zu aktualisieren. Um einen Bearbeitungslink auf deiner Webseite anzuzeigen, benutze eine `[edit]`-Abkürzung.
+Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebauten Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten, Mediendateien hochzuladen und Einstellungen zu ändern. Es ist eine großartige Art Webseiten zu aktualisieren. Um einen Bearbeitungslink auf deiner Webseite anzuzeigen, benutze eine `[edit]`-Abkürzung.
 
 ## Wie man ein Benutzerkonto erstellt
 
@@ -105,8 +105,8 @@ Verschiedene Symbolleistenschaltflächen in den Einstellungen festlegen:
 ```
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emoji
 ```
 
 Verschiedene Orte zum Hochladen in den Einstellungen festlegen:
@@ -188,7 +188,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `delete` = Benutzer kann Seite löschen  
 `restore` = Benutzer kann gelöschte Seite wiederherstellen  
 `upload` = Benutzer kann Mediendateien hochladen  
-`configure` = Benutzer kann Webseite konfigurieren  
+`configure` = Benutzer kann Einstellungen konfigurieren  
 `update` = Benutzer kann Webseite aktualisieren  
 
 <a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:

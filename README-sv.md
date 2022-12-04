@@ -8,7 +8,7 @@ Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/
 
 ## Hur man redigerar en webbplats i en webbläsare
 
-Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren låter dig redigera innehållsfiler, ladda upp mediefiler och ändra systeminställningar. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
+Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler, ladda upp mediefiler och ändra inställningar. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
 
 ## Hur man skapar ett användarkonto
 
@@ -105,8 +105,8 @@ Konfigurera olika verktygsfältknappar i inställningar:
 ```
 EditToolbarButtons: auto 
 EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, separator, emoji
 ```
 
 Konfigurera olika uppladdningsplatser i inställningar:
@@ -188,7 +188,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `delete` = användaren kan radera sidan  
 `restore` = användaren kan återställa raderad sida  
 `upload` = användaren kan ladda upp mediefiler  
-`configure` = användaren kan konfigurera webbplatsen  
+`configure` = användaren kan konfigurera inställningar  
 `update` = användaren kan uppdatera webbplatsen  
 
 <a id="inställningar-status"></a>Följande användarstatusvärden stöds:
