@@ -6,6 +6,10 @@ Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
+## Wie man eine Erweiterung installiert
+
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-core/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
 Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebauten Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten, Mediendateien hochzuladen und Einstellungen zu ändern. Es ist eine großartige Art Webseiten zu aktualisieren. Um einen Bearbeitungslink auf deiner Webseite anzuzeigen, benutze eine `[edit]`-Abkürzung.
@@ -206,10 +210,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `content/shared/page-new-default.md` = Inhaltsdatei für neue Seite  
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
 `content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
-
-## Installation
-
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-core/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

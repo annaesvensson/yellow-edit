@@ -6,6 +6,10 @@ Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-core/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man redigerar en webbplats i en webbläsare
 
 Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler, ladda upp mediefiler och ändra inställningar. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
@@ -206,10 +210,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `content/shared/page-new-default.md` = innehållsfil för ny sida  
 `content/shared/page-new-wiki.md` = innehållsfil för ny wikisida  
 `content/shared/page-new-blog.md` = innehållsfil för ny bloggsida  
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-core/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 

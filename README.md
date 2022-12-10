@@ -6,6 +6,10 @@ Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/
 
 <p align="center"><img src="edit-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to edit a website in a web browser
 
 The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files, upload media files and change settings. It is a great way to update your website. To show an edit link on your website use an `[edit]` shortcut.
@@ -206,10 +210,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `content/shared/page-new-default.md` = content file for new page  
 `content/shared/page-new-wiki.md` = content file for new wiki page  
 `content/shared/page-new-blog.md` = content file for new blog page  
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 
