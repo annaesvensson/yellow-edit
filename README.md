@@ -34,13 +34,7 @@ If you don't want that user accounts are created, then restrict the login page. 
 
 ## Examples
 
-Showing an edit link:
-
-    [edit]
-    [edit - Log in]
-    [edit - You can edit this page]
-
-Content file with edit link:
+Content file with edit shortcut:
 
     ---
     Title: Example page
@@ -104,15 +98,6 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
-Configuring different toolbar buttons in the settings:
-
-```
-EditToolbarButtons: auto 
-EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-```
-
 Configuring different upload locations in the settings:
 
 ```
@@ -120,6 +105,15 @@ EditUploadNewLocation: /media/@group/@filename
 EditUploadNewLocation: /media/@group/@timestamp.@type
 EditUploadNewLocation: /media/@group/@folder/@filename
 EditUploadNewLocation: /media/uploads/@filename
+```
+
+Configuring different toolbar buttons in the settings:
+
+```
+EditToolbarButtons: auto 
+EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 ```
 
 Showing available user accounts at the command line:
@@ -149,7 +143,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditUploadNewLocation` = location for uploaded media files, [supported placeholders](#settings-placeholders)  
 `EditUploadExtensions` = file formats for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
-`EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, `none` to disable  
+`EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, [supported buttons](#settings-toolbar)  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
 `EditNewFile` = content file for new page  
 `EditUserPasswordMinLength` = minimum length of passwords  
@@ -169,6 +163,36 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `@type` = file type  
 `@group` = file group  
 `@folder` = folder name of source page  
+
+<a id="settings-toolbar"></a>The following toolbar buttons are supported:
+
+`format` = format dropdown  
+`heading` = heading dropdown  
+`h1` = heading 1  
+`h2` = heading 2  
+`h3` = heading 3  
+`paragraph` = normal text  
+`pre` = source code  
+`notice` = notice  
+`quote` = quote  
+`bold` = bold  
+`italic` = italic  
+`strikethrough` = strikethrough  
+`code` = code  
+`list` = list dropdown  
+`ul` = unordered list  
+`ol` = ordered list  
+`tl` = task list  
+`link` = link  
+`file` = file dialog to upload media files  
+`emoji` = emoji dialog, [requires emoji extension](https://github.com/annaesvensson/yellow-emoji)  
+`icon` = icon dialog, [requires icon extension](https://github.com/annaesvensson/yellow-icon)  
+`status` = page status  
+`undo` = undo  
+`redo` = redo  
+`separator` = separator  
+`preview` = preview  
+`help` = help  
 
 <a id="settings-user"></a>The following settings can be configured in file `system/extensions/yellow-user.ini`:
 

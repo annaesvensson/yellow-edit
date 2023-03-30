@@ -34,13 +34,7 @@ Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. �
 
 ## Exempel
 
-Visa redigeringslänk:
-
-    [edit]
-    [edit - Logga in]
-    [edit - Du kan redigera den här sidan]
-
-Innehållsfil med redigeringslänk:
+Innehållsfil med redigerings-förkortning:
 
     ---
     Title: Exempelsida
@@ -104,15 +98,6 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
-Konfigurera olika verktygsfältknappar i inställningar:
-
-```
-EditToolbarButtons: auto 
-EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-```
-
 Konfigurera olika uppladdningsplatser i inställningar:
 
 ```
@@ -120,6 +105,15 @@ EditUploadNewLocation: /media/@group/@filename
 EditUploadNewLocation: /media/@group/@timestamp.@type
 EditUploadNewLocation: /media/@group/@folder/@filename
 EditUploadNewLocation: /media/uploads/@filename
+```
+
+Konfigurera olika verktygsfältknappar i inställningar:
+
+```
+EditToolbarButtons: auto 
+EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 ```
 
 Visa tillgängliga användarkonton på kommandoraden:
@@ -149,7 +143,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditUploadNewLocation` = plats för uppladdade mediefiler, [stödda platshållare](#inställningar-placeholders)  
 `EditUploadExtensions` = filformat för uppladdning, `none` för att inaktivera  
 `EditKeyboardShortcuts` = tangentbordsgenvägar och kommandon, `none` för att inaktivera  
-`EditToolbarButtons` = verktygsfältknappar, `auto` för automatisk detektering, `none` för att inaktivera  
+`EditToolbarButtons` = verktygsfältknappar, `auto` för automatisk detektering, [stödda knappar](#inställningar-toolbar)  
 `EditEndOfLine` = linjeändar, t.ex. `auto`, `lf`, `crlf`  
 `EditNewFile` = innehållsfil för ny sida  
 `EditUserPasswordMinLength` = minsta längd på lösenord  
@@ -169,6 +163,36 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `@type` = filtyp  
 `@group` = filgrupp  
 `@folder` = mappnamn på originalsidan  
+
+<a id="inställningar-toolbar"></a>Följande verktygsfältknappar stöds:
+
+`format` = format-rullgardinsmenyn  
+`heading` = rubrik-rullgardinsmenyn  
+`h1` = rubrik 1  
+`h2` = rubrik 2  
+`h3` = rubrik 3  
+`paragraph` = normal text  
+`pre` = källkod  
+`notice` = indikation  
+`quote` = citat  
+`bold` = fet  
+`italic` = kursiv  
+`strikethrough` = struken  
+`code` = code  
+`list` = lista-rullgardinsmenyn  
+`ul` = osorterad lista  
+`ol` = sorterad lista  
+`tl` = uppgiftslista  
+`link` = länk  
+`file` = fil-dialog för att ladda upp mediafiler  
+`emoji` = emoji-dialog, [kräver emoji-tillägg](https://github.com/annaesvensson/yellow-emoji/tree/main/README-sv.md)  
+`icon` = ikon-dialog, [kräver icon-tillägg](https://github.com/annaesvensson/yellow-icon/tree/main/README-sv.md)  
+`status` = sidans status  
+`undo` = ångra  
+`redo` = gör om  
+`separator` = avgränsare  
+`preview` = förhandsvisning  
+`help` = hjälp  
 
 <a id="inställningar-user"></a>Följande inställningar kan konfigureras i filen `system/extensions/yellow-user.ini`:
 

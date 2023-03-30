@@ -34,13 +34,7 @@ Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmel
 
 ## Beispiele
 
-Bearbeitungslink anzeigen:
-
-    [edit]
-    [edit - Anmelden]
-    [edit - Du kannst diese Seite bearbeiten]
-
-Inhaltsdatei mit Bearbeitungslink:
+Inhaltsdatei mit Bearbeitungs-Abkürzung:
 
     ---
     Title: Beispielseite
@@ -104,15 +98,6 @@ Modified: 2000-01-01 13:37:00
 Status: active
 ```
 
-Verschiedene Symbolleistenschaltflächen in den Einstellungen festlegen:
-
-```
-EditToolbarButtons: auto 
-EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
-EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
-EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
-```
-
 Verschiedene Orte zum Hochladen in den Einstellungen festlegen:
 
 ```
@@ -120,6 +105,15 @@ EditUploadNewLocation: /media/@group/@filename
 EditUploadNewLocation: /media/@group/@timestamp.@type
 EditUploadNewLocation: /media/@group/@folder/@filename
 EditUploadNewLocation: /media/uploads/@filename
+```
+
+Verschiedene Symbolleistenschaltflächen in den Einstellungen festlegen:
+
+```
+EditToolbarButtons: auto 
+EditToolbarButtons: format, bold, italic, strikethrough, code, separator, list, link, file, undo, redo
+EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, emoji, separator, help
+EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 ```
 
 Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
@@ -149,7 +143,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)  
 `EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
-`EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, `none` um zu deaktivieren  
+`EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, [unterstützte Schaltflächen](#einstellungen-toolbar)  
 `EditEndOfLine` = Zeilenenden, z.B. `auto`, `lf`, `crlf`  
 `EditNewFile` = Inhaltsdatei für neue Seite  
 `EditUserPasswordMinLength` = Mindestlänge von Kennwörtern  
@@ -169,6 +163,36 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `@type` = Dateityp  
 `@group` = Dateigruppe  
 `@folder` = Ordnername der Urspungsseite
+
+<a id="einstellungen-toolbar"></a>Die folgenden Symbolleistenschaltflächen werden unterstützt:
+
+`format` = Format-Dropdown  
+`heading` = Überschriften-Dropdown  
+`h1` = Überschrift 1  
+`h2` = Überschrift 2  
+`h3` = Überschrift 3  
+`paragraph` = Normaler Text  
+`pre` = Quellcode  
+`notice` = Hinweis  
+`quote` = Zitat  
+`bold` = Fettschrift  
+`italic` = Kursiv  
+`strikethrough` = Durchgestrichen  
+`code` = Code  
+`list` = Listen-Dropdown  
+`ul` = Unsortierte Liste  
+`ol` = Sortierte Liste  
+`tl` = Aufgabenliste  
+`link` = Link  
+`file` = Datei-Dialog um Mediendateien hochzuladen  
+`emoji` = Emoji-Dialog, [erfordert Emoji-Erweiterung](https://github.com/annaesvensson/yellow-emoji/tree/main/README-de.md)  
+`icon` = Icon-Dialog, [erfordert Icon-Erweiterung](https://github.com/annaesvensson/yellow-icon/tree/main/README-de.md)  
+`status` = Status der Seite  
+`undo` = Rückgängig  
+`redo` = Wiederholen  
+`separator` = Trenner  
+`preview` = Vorschau  
+`help` = Hilfe  
 
 <a id="einstellungen-user"></a>Die folgenden Einstellungen können in der Datei `system/extensions/yellow-user.ini` vorgenommen werden:
 
