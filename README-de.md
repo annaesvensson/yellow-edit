@@ -12,7 +12,7 @@ Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/
 
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
-Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebauten Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten, Mediendateien hochzuladen und Einstellungen zu ändern. Es ist eine großartige Art Webseiten zu aktualisieren. Um einen Bearbeitungslink auf deiner Webseite anzuzeigen, benutze eine `[edit]`-Abkürzung.
+Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebauten Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten und Mediendateien hochzuladen. Es ist eine großartige Art Webseiten zu aktualisieren. Um einen Bearbeitungslink auf deiner Webseite anzuzeigen, benutze eine `[edit]`-Abkürzung.
 
 ## Wie man ein Benutzerkonto erstellt
 

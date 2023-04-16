@@ -12,7 +12,7 @@ Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/
 
 ## Hur man redigerar en webbplats i en webbläsare
 
-Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler, ladda upp mediefiler och ändra inställningar. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
+Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler och ladda upp mediefiler. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
 
 ## Hur man skapar ett användarkonto
 
