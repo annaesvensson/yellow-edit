@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.8.74
+# Edit 0.8.75
 
 Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
 
@@ -12,7 +12,7 @@ Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/
 
 ## How to edit a website in a web browser
 
-The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files and upload media files. It is a great way to update your website. To show an edit link on your website use an `[edit]` shortcut.
+The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files and upload media files. It is a great way to update your website. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. To show an edit link use an `[edit]` shortcut.
 
 ## How to create a user account
 

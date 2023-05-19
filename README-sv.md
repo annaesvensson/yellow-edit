@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.8.74
+# Edit 0.8.75
 
 Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
 
@@ -12,7 +12,7 @@ Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/
 
 ## Hur man redigerar en webbplats i en webbläsare
 
-Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler och ladda upp mediefiler. Det är ett utmärkt sätt att uppdatera webbsidor. För att visa en redigeringslänk på din webbplats, använd en `[edit]` förkortning.
+Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler och ladda upp mediefiler. Det är ett utmärkt sätt att uppdatera webbsidor. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md) stöds. För att visa en redigeringslänk, använd en `[edit]` förkortning.
 
 ## Hur man skapar ett användarkonto
 
