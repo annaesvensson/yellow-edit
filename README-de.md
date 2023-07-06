@@ -241,6 +241,10 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `content/shared/page-new-wiki.md` = Inhaltsdatei für neue Wikiseite  
 `content/shared/page-new-blog.md` = Inhaltsdatei für neue Blogseite  
 
+## Danksagung
+
+Diese Erweiterung wurde zuvor betreut von Mark Seuffert und David Fehrmann. Danke für die gute Arbeit.
+
 ## Entwickler
 
 Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

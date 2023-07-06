@@ -241,6 +241,10 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `content/shared/page-new-wiki.md` = innehållsfil för ny wikisida  
 `content/shared/page-new-blog.md` = innehållsfil för ny bloggsida  
 
+## Tack
+
+Detta tillägg underhålls tidigare av Mark Seuffert och David Fehrmann. Tack för ett bra jobb.
+
 ## Utvecklare
 
 Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

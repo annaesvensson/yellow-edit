@@ -241,6 +241,10 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `content/shared/page-new-wiki.md` = content file for new wiki page  
 `content/shared/page-new-blog.md` = content file for new blog page  
 
+## Acknowledgements
+
+This extension was previously maintained by Mark Seuffert and David Fehrmann. Thank you for the good work.
+
 ## Developer
 
 Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
