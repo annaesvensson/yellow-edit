@@ -4,7 +4,7 @@
 
 Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
 
-<p align="center"><img src="edit-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="SCREENSHOT.png?raw=true" alt="Screenshot"></p>
 
 ## How to install an extension
 
