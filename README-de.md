@@ -12,7 +12,9 @@ Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/
 
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
-Du kannst deine Webseite im Webbrowser bearbeiten. Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebaute Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten und Mediendateien hochzuladen. Es ist eine großartige Art Webseiten zu aktualisieren. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt.
+Du kannst deine Webseite im Webbrowser bearbeiten. Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der eingebaute Webeditor gibt dir die Möglichkeit Inhaltsdateien zu bearbeiten und Mediendateien hochzuladen. Es ist eine großartige Art Webseiten zu aktualisieren.
+
+Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du nicht willst dass sich die URL beim Speichern im Webbrowser ändert, benutze `TitleSlug` um die URL beizubehalten. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
 ## Wie man ein Benutzerkonto erstellt
 
@@ -36,22 +38,45 @@ Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](h
 
 Falls du nicht willst dass Seiten im Webbrowser verändert werden, beschränke Benutzerkonten. Öffne die Datei `system/extensions/yellow-user.ini` und ändere `Access` und `Home`. Benutzer dürfen Seiten innerhalb ihrer Startseite bearbeiten, aber nirgendwo sonst. Es gibt verschiedene [Zugriffsrechte](#einstellungen-access), um zu bestimmen was Benutzer machen dürfen.
 
-Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto erstellen.
+Falls du nicht willst dass Benutzerkonten erstellt werden, beschränke die Anmeldeseite. Öffne die Datei `system/extensions/yellow-system.ini` und ändere `EditLoginRestriction: 1`. Benutzer dürfen sich einloggen und ihr Kennwort zurücksetzen, aber kein neues Benutzerkonto mehr erstellen.
 
 ## Beispiele
+
+Inhaltsdatei mit Seitentitel und Text:
+
+    ---
+    Title: Beispielseite
+    ---
+    Das ist eine Beispielseite.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Inhaltsdatei mit dauerhafter URL:
+
+    ---
+    Title: Beispielseite
+    TitleSlug: readme-first
+    ---
+    Das ist eine Beispielseite mit dauerhafter URL.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 Inhaltsdatei mit Bearbeitungs-Abkürzung:
 
     ---
     Title: Beispielseite
     ---
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-    in culpa qui officia deserunt mollit anim id est laborum.
+    Das ist eine Beispielseite mit Bearbeitungs-Abkürzung.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
     
-    [edit - Anmelden].
+    [edit - Du kannst diese Seite bearbeiten].
 
 Ein Benutzerkonto mit maximalen Zugriffsrechten ausstatten:
 

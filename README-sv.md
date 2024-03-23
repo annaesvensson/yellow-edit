@@ -12,7 +12,9 @@ Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/
 
 ## Hur man redigerar en webbplats i en webbläsare
 
-Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler och ladda upp mediefiler. Det är ett utmärkt sätt att uppdatera webbsidor. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också.
+Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Inbyggda webbredigeraren ger dig möjlighet att redigera innehållsfiler och ladda upp mediefiler. Det är ett utmärkt sätt att uppdatera webbsidor. 
+
+Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page). Nedan kan du ändra text och bilder. Om du inte vill att URL:en ska ändras när du sparar i en webbläsare, använd `TitleSlug` för att bevara URL:en. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
 ## Hur man skapar ett användarkonto
 
@@ -36,22 +38,45 @@ Det andra alternativet är att ta bort ett användarkonto på [kommandoraden](ht
 
 Om du inte vill att sidorna ska ändras i en webbläsare begränsar du användarkonton. Öppna filen `system/extensions/yellow-user.ini` och ändra `Access` och `Home`. Användare får redigera sidor på sin hemsida, men inte någon annanstans. Det finns olika [rättigheter](#inställningar-access) för att bestämma vad användare får göra.
 
-Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. Öppna filen `system/extensions/yellow-system.ini` och ändra `EditLoginRestriction: 1`. Användare får återställa sitt lösenord, men kan inte skapa ett nytt användarkonto.
+Om du inte vill att användarkonton ska skapas begränsar du inloggningssidan. Öppna filen `system/extensions/yellow-system.ini` och ändra `EditLoginRestriction: 1`. Användare får logga in och återställa sitt lösenord, men kan inte längre skapa ett nytt användarkonto.
 
 ## Exempel
+
+Innehållsfil med namn på sidan och text:
+
+    ---
+    Title: Exempelsida
+    ---
+    Detta är en exempelsida.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Innehållsfil med permanent URL:
+
+    ---
+    Title: Exempelsida
+    TitleSlug: readme-first
+    ---
+    Detta är en exempelsida permanent URL.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 Innehållsfil med redigerings-förkortning:
 
     ---
     Title: Exempelsida
     ---
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-    in culpa qui officia deserunt mollit anim id est laborum.
+    Detta är en exempelsida med redigerings-förkortning.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
     
-    [edit - Logga in].
+    [edit - Du kan redigera den här sidan].
 
 Konfigurera ett användarkonto med maximala användarrättigheter:
 

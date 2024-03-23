@@ -12,7 +12,9 @@ Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/
 
 ## How to edit a website in a web browser
 
-You can edit your website in a web browser. The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files and upload media files. It is a great way to update your website. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported.
+You can edit your website in a web browser. The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files and upload media files. It is a great way to update your website.
+
+At the top of a page you can change `Title` and other [page settings](https://github.com/annaesvensson/yellow-core#settings-page). Below you can change text and images. If you don't want that the URL is changed when saving in a web browser, use `TitleSlug` to preserve the URL. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
 ## How to create a user account
 
@@ -36,22 +38,45 @@ The second option is to remove a user account at the [command line](https://gith
 
 If you don't want that pages are modified in a web browser, then restrict user accounts. Open file `system/extensions/yellow-user.ini` and change `Access` and `Home`. Users are allowed to edit pages within their home page, but nowhere else. There are different [access rights](#settings-access), to control what users are allowed do.
 
-If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to reset their password, but cannot create a new user account.
+If you don't want that user accounts are created, then restrict the login page. Open file `system/extensions/yellow-system.ini` and change `EditLoginRestriction: 1`. Users are allowed to log in and reset their password, but can no longer create a new user account.
 
 ## Examples
+
+Content file with page title and text:
+
+    ---
+    Title: Example page
+    ---
+    This is an example page.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Content file with permanent URL:
+
+    ---
+    Title: Example page
+    TitleSlug: readme-first
+    ---
+    This is an example page with permanent URL.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 Content file with edit shortcut:
 
     ---
     Title: Example page
     ---
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-    in culpa qui officia deserunt mollit anim id est laborum.
+    This is an example page with edit shortcut.
 
-    [edit - Log in].
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+    [edit - You can edit this page].
 
 Configuring a user account with maximum user access rights:
 
