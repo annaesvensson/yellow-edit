@@ -59,7 +59,7 @@ Innehållsfil med permanent URL:
     Title: Exempelsida
     TitleSlug: readme-first
     ---
-    Detta är en exempelsida permanent URL.
+    Detta är en exempelsida med permanent URL.
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
     tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
