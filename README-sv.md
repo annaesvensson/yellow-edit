@@ -172,7 +172,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditSiteEmail` = webbplatsens email, som används för genererade meddelanden  
 `EditLocation` = plats för inloggningssidan  
 `EditUploadNewLocation` = plats för uppladdade mediefiler, [stödda platshållare](#inställningar-placeholders)  
-`EditUploadExtensions` = filformat för uppladdning, `none` för att inaktivera  
+`EditUploadExtensions` = filändelser för uppladdning, `none` för att inaktivera  
 `EditKeyboardShortcuts` = tangentbordsgenvägar och kommandon, `none` för att inaktivera  
 `EditToolbarButtons` = verktygsfältknappar, `auto` för automatisk detektering, [stödda knappar](#inställningar-toolbar)  
 `EditEndOfLine` = linjeändar, t.ex. `auto`, `lf`, `crlf`  

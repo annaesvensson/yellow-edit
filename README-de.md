@@ -172,7 +172,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditSiteEmail` = E-Mail der Webseite, wird für erstellte Nachrichten angewendet  
 `EditLocation` = Ort der Anmeldeseite  
 `EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)  
-`EditUploadExtensions` = Dateiformate zum Hochladen, `none` um zu deaktivieren  
+`EditUploadExtensions` = Dateiendungen zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, [unterstützte Schaltflächen](#einstellungen-toolbar)  
 `EditEndOfLine` = Zeilenenden, z.B. `auto`, `lf`, `crlf`  

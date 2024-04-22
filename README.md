@@ -172,7 +172,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditSiteEmail` = email of the website, used for generated messages  
 `EditLocation` = login page location  
 `EditUploadNewLocation` = location for uploaded media files, [supported placeholders](#settings-placeholders)  
-`EditUploadExtensions` = file formats for upload, `none` to disable  
+`EditUploadExtensions` = file extensions for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, [supported buttons](#settings-toolbar)  
 `EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
