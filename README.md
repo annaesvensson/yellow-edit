@@ -12,7 +12,7 @@ Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/
 
 ## How to edit a website in a web browser
 
-You can edit your website in a web browser. The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The built-in web editor allows you to edit content files and upload media files. It is a great way to update your website.
+You can edit your website in a web browser. The login page is available on your website as `http://website/edit/`. Log in with your user account. You can use the normal navigation, make some changes and see the result immediately. The online editor allows you to edit content files and upload media files. It is a great way to update your website.
 
 At the top of a page you can change `Title` and other [page settings](https://github.com/annaesvensson/yellow-core#settings-page). Below you can change text and images. If you don't want that the URL is changed when changing the page title, use `TitleSlug` to keep a permanent URL. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
