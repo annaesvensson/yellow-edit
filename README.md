@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.9.11
+# Edit 0.9.12
 
 Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
 
@@ -203,8 +203,8 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `h2` = heading 2  
 `h3` = heading 3  
 `paragraph` = normal text  
+`important` = important text  
 `pre` = source code  
-`notice` = notice  
 `quote` = quote  
 `bold` = bold  
 `italic` = italic  

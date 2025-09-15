@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.9.11
+# Edit 0.9.12
 
 Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
 
@@ -203,8 +203,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `h2` = Überschrift 2  
 `h3` = Überschrift 3  
 `paragraph` = Normaler Text  
+`important` = Wichtiger Text  
 `pre` = Quellcode  
-`notice` = Hinweis  
 `quote` = Zitat  
 `bold` = Fettschrift  
 `italic` = Kursiv  

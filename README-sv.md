@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Edit 0.9.11
+# Edit 0.9.12
 
 Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
 
@@ -203,8 +203,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `h2` = rubrik 2  
 `h3` = rubrik 3  
 `paragraph` = normal text  
+`important` = viktig text  
 `pre` = källkod  
-`notice` = indikation  
 `quote` = citat  
 `bold` = fet  
 `italic` = kursiv  
