@@ -248,7 +248,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `restore` = användaren kan återställa raderad sida  
 `upload` = användaren kan ladda upp mediefiler  
 `configure` = användaren kan konfigurera inställningar  
-`update` = användaren kan uppdatera webbplatsen  
+`update` = användaren kan uppdatera tillägg  
 
 <a id="inställningar-status"></a>Följande användarstatusvärden stöds:
 

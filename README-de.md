@@ -248,7 +248,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `restore` = Benutzer kann gelöschte Seite wiederherstellen  
 `upload` = Benutzer kann Mediendateien hochladen  
 `configure` = Benutzer kann Einstellungen konfigurieren  
-`update` = Benutzer kann Webseite aktualisieren  
+`update` = Benutzer kann Erweiterungen aktualisieren  
 
 <a id="einstellungen-status"></a>Die folgenden Benutzer-Statuswerte werden unterstützt:
 

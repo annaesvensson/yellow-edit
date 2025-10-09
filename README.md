@@ -248,7 +248,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `restore` = user can restore deleted page  
 `upload` = user can upload media files  
 `configure` = user can configure settings  
-`update` = user can update website  
+`update` = user can update extensions  
 
 <a id="settings-status"></a>The following user status values are supported:
 
