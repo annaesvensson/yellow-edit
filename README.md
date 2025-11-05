@@ -204,7 +204,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `h3` = heading 3  
 `paragraph` = normal text  
 `important` = important text  
-`pre` = source code  
+`pre` = code block  
 `quote` = quote  
 `bold` = bold  
 `italic` = italic  

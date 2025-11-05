@@ -204,7 +204,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `h3` = Überschrift 3  
 `paragraph` = Normaler Text  
 `important` = Wichtiger Text  
-`pre` = Quellcode  
+`pre` = Codeblock  
 `quote` = Zitat  
 `bold` = Fettschrift  
 `italic` = Kursiv  

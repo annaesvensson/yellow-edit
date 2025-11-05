@@ -204,7 +204,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `h3` = rubrik 3  
 `paragraph` = normal text  
 `important` = viktig text  
-`pre` = källkod  
+`pre` = kodblock  
 `quote` = citat  
 `bold` = fet  
 `italic` = kursiv  
