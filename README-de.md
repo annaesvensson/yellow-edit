@@ -169,7 +169,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
-`EditSiteEmail` = E-Mail der Webseite, wird für erstellte Nachrichten angewendet  
+`EditSiteEmail` = Email für ausgehende Nachrichten  
 `EditLocation` = Ort der Anmeldeseite  
 `EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)  
 `EditUploadExtensions` = Dateiendungen zum Hochladen, `none` um zu deaktivieren  

@@ -169,7 +169,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`EditSiteEmail` = email of the website, used for generated messages  
+`EditSiteEmail` = email for outgoing messages  
 `EditLocation` = login page location  
 `EditUploadNewLocation` = location for uploaded media files, [supported placeholders](#settings-placeholders)  
 `EditUploadExtensions` = file extensions for upload, `none` to disable  

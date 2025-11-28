@@ -169,7 +169,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
-`EditSiteEmail` = webbplatsens email, som används för genererade meddelanden  
+`EditSiteEmail` = email för utgående meddelanden  
 `EditLocation` = plats för inloggningssidan  
 `EditUploadNewLocation` = plats för uppladdade mediefiler, [stödda platshållare](#inställningar-placeholders)  
 `EditUploadExtensions` = filändelser för uppladdning, `none` för att inaktivera  
