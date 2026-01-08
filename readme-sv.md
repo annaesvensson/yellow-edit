@@ -1,38 +1,38 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Edit 0.9.12
 
 Redigera din webbplats i en webbläsare. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
 
-<p align="center"><img src="SCREENSHOT.png" alt="Skärmdump"></p>
+<p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
-[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-edit/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-edit/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man redigerar en webbplats i en webbläsare
 
 Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda navigeringen, göra ändringar och se resultatet omedelbart. Den lilla webbredigeraren ger dig möjlighet att ändra innehållsfiler, ladda upp mediefiler och konfigurera inställningar.
 
-Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page). Nedan kan du ändra text och bilder. Om du inte vill att URL:en ska ändras när du ändrar namn på sidan, använd `TitleSlug` för att behålla en permanent URL. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/readme-sv.md#inställningar-page). Nedan kan du ändra text och bilder. Om du inte vill att URL:en ska ändras när du ändrar namn på sidan, använd `TitleSlug` för att behålla en permanent URL. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
 ## Hur man skapar ett användarkonto
 
 Det första alternativet är att skapa ett användarkonto i en webbläsare. Gå till inloggningssidan. Du kan skapa ett användarkonto och återställa ditt lösenord. Webmastern måste godkänna nya användarkonton. Webmastarens email definieras i filen `system/extensions/yellow-system.ini`.
 
-Det andra alternativet är att skapa ett användarkonto på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user add` följt av email och lösenord. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
+Det andra alternativet är att skapa ett användarkonto på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/readme-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user add` följt av email och lösenord. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
 ## Hur man ändrar ett användarkonto
 
 Det första alternativet är att ändra ett användarkonto i en webbläsare. Logga in med ditt användarkonto. Gå till inställningarna. Du kan ändra din email och ditt lösenord. Om du har glömt ditt lösenord kan du återställa det på inloggningssidan. Efter att du har bekräftat att du vill ändra ditt användarkonto kommer ändringarna att lagras.
 
-Det andra alternativet är att ändra ett användarkonto på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user change` följt av email och lösenord. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
+Det andra alternativet är att ändra ett användarkonto på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/readme-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user change` följt av email och lösenord. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
 ## Hur man tar bort ett användarkonto
 
 Det första alternativet är att ta bort ett användarkonto i en webbläsare. Logga in med ditt användarkonto. Gå till inställningarna. Du kan ta bort ditt eget användarkonto. Efter att du har bekräftat att du verkligen vill ta bort ditt användarkonto, får du ett sista meddelande och användarkontot kommer att raderas.
 
-Det andra alternativet är att ta bort ett användarkonto på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user remove` följt av email. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
+Det andra alternativet är att ta bort ett användarkonto på [kommandoraden](https://github.com/annaesvensson/yellow-core/tree/main/readme-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php user remove` följt av email. Alla användarkonton lagras i filen `system/extensions/yellow-user.ini`.
 
 ## Hur man begränsar ett användarkonto
 
@@ -216,8 +216,8 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `tl` = uppgiftslista  
 `link` = länk  
 `file` = fil-dialog för att ladda upp mediafiler  
-`emoji` = emoji-dialog, [kräver emoji-tillägg](https://github.com/annaesvensson/yellow-emoji/tree/main/README-sv.md)  
-`icon` = ikon-dialog, [kräver icon-tillägg](https://github.com/annaesvensson/yellow-icon/tree/main/README-sv.md)  
+`emoji` = emoji-dialog, [kräver emoji-tillägg](https://github.com/annaesvensson/yellow-emoji/tree/main/readme-sv.md)  
+`icon` = ikon-dialog, [kräver icon-tillägg](https://github.com/annaesvensson/yellow-icon/tree/main/readme-sv.md)  
 `status` = sidans status  
 `undo` = ångra  
 `redo` = gör om  

@@ -1,10 +1,10 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Edit 0.9.12
 
 Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 

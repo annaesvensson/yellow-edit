@@ -1,38 +1,38 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Edit 0.9.12
 
 Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
 
-<p align="center"><img src="SCREENSHOT.png" alt="Bildschirmfoto"></p>
+<p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
 
-[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-edit/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-edit/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
 ## Wie man eine Webseite im Webbrowser bearbeitet
 
 Du kannst deine Webseite im Webbrowser bearbeiten. Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der kleine Webeditor gibt dir die Möglichkeit Inhaltsdateien zu ändern, Mediendateien hochzuladen und Einstellungen zu konfigurieren.
 
-Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du nicht willst dass sich die URL beim Ändern des Seitentitels ändert, benutze `TitleSlug` um eine dauerhafte URL zu behalten. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
+Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du nicht willst dass sich die URL beim Ändern des Seitentitels ändert, benutze `TitleSlug` um eine dauerhafte URL zu behalten. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
 ## Wie man ein Benutzerkonto erstellt
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu erstellen. Gehe zur Anmeldeseite. Du kannst ein Benutzerkonto erstellen und dein Kennwort wiederherstellen. Der Webmaster muss neue Benutzerkonten genehmigen. Die E-Mail des Webmasters wird in der Datei `system/extensions/yellow-system.ini` festgelegt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md) zu erstellen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user add` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto ändert
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu ändern. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst deine E-Mail und dein Kennwort ändern. Falls du dein Kennwort vergessen hast, kannst du es auf der Anmeldeseite wiederherstellen. Nachdem du bestätigt hast dass du dein Benutzerkonto ändern möchtest, werden die Änderungen gespeichert.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) zu ändern. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user change` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md) zu ändern. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user change` gefolgt von E-Mail und Kennwort. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto löscht
 
 Die erste Möglichkeit besteht darin, ein Benutzerkonto im Webbrowser zu löschen. Melde dich mit deinem Benutzerkonto an. Gehe in die Einstellungen. Du kannst dein eigenes Benutzerkonto löschen. Nachdem du bestätigt hast dass du dein Benutzerkonto wirklich löschen möchtest, erhältst du eine abschließende Nachricht und das Benutzerkonto wird entfernt.
 
-Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md) zu löschen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user remove` gefolgt von E-Mail. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
+Die zweite Möglichkeit besteht darin, ein Benutzerkonto in der [Befehlszeile](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md) zu löschen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php user remove` gefolgt von E-Mail. Alle Benutzerkonten werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Wie man ein Benutzerkonto beschränkt
 
@@ -216,8 +216,8 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `tl` = Aufgabenliste  
 `link` = Link  
 `file` = Datei-Dialog um Mediendateien hochzuladen  
-`emoji` = Emoji-Dialog, [erfordert Emoji-Erweiterung](https://github.com/annaesvensson/yellow-emoji/tree/main/README-de.md)  
-`icon` = Icon-Dialog, [erfordert Icon-Erweiterung](https://github.com/annaesvensson/yellow-icon/tree/main/README-de.md)  
+`emoji` = Emoji-Dialog, [erfordert Emoji-Erweiterung](https://github.com/annaesvensson/yellow-emoji/tree/main/readme-de.md)  
+`icon` = Icon-Dialog, [erfordert Icon-Erweiterung](https://github.com/annaesvensson/yellow-icon/tree/main/readme-de.md)  
 `status` = Status der Seite  
 `undo` = Rückgängig  
 `redo` = Wiederholen  
