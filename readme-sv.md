@@ -1,6 +1,6 @@
 # Edit 0.9.12
 
-Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
+Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 

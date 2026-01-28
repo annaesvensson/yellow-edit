@@ -1,6 +1,6 @@
 # Edit 0.9.12
 
-Edit your website in a web browser. Developed by Anna Svensson. [Try the demo](https://datenstrom.se/yellow/demo/).
+Edit your website in a web browser. Developed by Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 

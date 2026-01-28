@@ -1,6 +1,6 @@
 # Edit 0.9.12
 
-Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
+Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
