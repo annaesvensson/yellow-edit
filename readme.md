@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Edit 0.9.12
 
-Edit your website in a web browser. [Try the demo](https://datenstrom.se/yellow/demo/).
+Edit your website in a web browser. Developed by Anna Svensson. [Try the demo](https://datenstrom.se/yellow/demo/).
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -270,6 +268,4 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 This extension was previously maintained by Mark Seuffert and David Fehrmann. Thank you for the good work.
 
-## Developer
-
-Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

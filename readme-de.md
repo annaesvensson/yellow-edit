@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Edit 0.9.12
 
-Webseite im Webbrowser bearbeiten. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
+Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -270,6 +268,4 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 Diese Erweiterung wurde zuvor betreut von Mark Seuffert und David Fehrmann. Danke für die gute Arbeit.
 
-## Entwickler
-
-Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
