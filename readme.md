@@ -1,4 +1,4 @@
-# Edit 0.9.15
+# Edit 0.9.16
 
 Edit your website in a web browser. Developed by Anna Svensson.
 
@@ -167,7 +167,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`EditSiteEmail` = email for outgoing messages  
+`From` = email for outgoing messages  
 `EditLocation` = login page location  
 `EditUploadNewLocation` = location for uploaded media files, [supported placeholders](#settings-placeholders)  
 `EditUploadExtensions` = file extensions for upload, `none` to disable  

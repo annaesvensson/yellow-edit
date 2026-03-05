@@ -1,4 +1,4 @@
-# Edit 0.9.15
+# Edit 0.9.16
 
 Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson.
 
@@ -167,7 +167,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
-`EditSiteEmail` = email för utgående meddelanden  
+`From` = email för utgående meddelanden  
 `EditLocation` = plats för inloggningssidan  
 `EditUploadNewLocation` = plats för uppladdade mediefiler, [stödda platshållare](#inställningar-placeholders)  
 `EditUploadExtensions` = filändelser för uppladdning, `none` för att inaktivera  

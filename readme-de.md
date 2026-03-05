@@ -1,4 +1,4 @@
-# Edit 0.9.15
+# Edit 0.9.16
 
 Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson.
 
@@ -167,7 +167,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
-`EditSiteEmail` = Email für ausgehende Nachrichten  
+`From` = E-Mail für ausgehende Nachrichten  
 `EditLocation` = Ort der Anmeldeseite  
 `EditUploadNewLocation` = Ort für hochgeladene Mediendateien, [unterstützte Platzhalter](#einstellungen-placeholders)  
 `EditUploadExtensions` = Dateiendungen zum Hochladen, `none` um zu deaktivieren  
