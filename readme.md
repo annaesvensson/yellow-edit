@@ -1,4 +1,4 @@
-# Edit 0.9.17
+# Edit 0.9.18
 
 Edit your website in a web browser. Developed by Anna Svensson.
 
