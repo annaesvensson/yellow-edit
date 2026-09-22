@@ -266,6 +266,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 ## Acknowledgements
 
-This extension was previously maintained by Mark Seuffert and David Fehrmann. Thank you for the good work.
+This extension includes contributions by David Fehrmann and Mark Seuffert. Thank you for the good work.
 
 Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

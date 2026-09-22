@@ -266,6 +266,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 ## Danksagung
 
-Diese Erweiterung wurde zuvor betreut von Mark Seuffert und David Fehrmann. Danke für die gute Arbeit.
+Diese Erweiterung enthält Beiträge von David Fehrmann und Mark Seuffert. Danke für die gute Arbeit.
 
 Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).

@@ -266,6 +266,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 ## Tack
 
-Detta tillägg underhålls tidigare av Mark Seuffert och David Fehrmann. Tack för ett bra jobb.
+Detta tillägg innehåller bidrag från David Fehrmann och Mark Seuffert. Tack för ett bra jobb.
 
 Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
