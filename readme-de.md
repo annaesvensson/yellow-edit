@@ -12,7 +12,7 @@ Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson.
 
 Du kannst deine Webseite im Webbrowser bearbeiten. Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Melde dich mit deinem Benutzerkonto an. Du kannst die Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Der kleine Webeditor gibt dir die Möglichkeit Inhaltsdateien zu ändern, Mediendateien hochzuladen und Einstellungen zu konfigurieren.
 
-Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du nicht willst dass sich die URL beim Ändern des Seitentitels ändert, benutze `TitleSlug` um eine dauerhafte URL zu behalten. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
+Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du nicht willst dass sich die URL beim Ändern des Seitentitels ändert, benutze `TitleSlug` um eine dauerhafte URL zu behalten. Textformatierung mit Markdown wird unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
 ## Wie man ein Benutzerkonto erstellt
 

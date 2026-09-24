@@ -12,7 +12,7 @@ Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson.
 
 Du kan redigera din webbplats i en webbläsare. Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Logga in med ditt användarkonto. Du kan använda navigeringen, göra ändringar och se resultatet omedelbart. Den lilla webbredigeraren ger dig möjlighet att ändra innehållsfiler, ladda upp mediefiler och konfigurera inställningar.
 
-Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/readme-sv.md#inställningar-page). Nedan kan du ändra text och bilder. Om du inte vill att URL:en ska ändras när du ändrar namn på sidan, använd `TitleSlug` för att behålla en permanent URL. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/readme-sv.md#inställningar-page). Nedan kan du ändra text och bilder. Om du inte vill att URL:en ska ändras när du ändrar namn på sidan, använd `TitleSlug` för att behålla en permanent URL. Textformatering med Markdown stöds. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
 ## Hur man skapar ett användarkonto
 
