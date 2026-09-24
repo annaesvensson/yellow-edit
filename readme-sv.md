@@ -1,4 +1,4 @@
-# Edit 0.9.18
+# Edit 0.9.19
 
 Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson.
 
