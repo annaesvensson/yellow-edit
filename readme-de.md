@@ -81,7 +81,7 @@ Ein Benutzerkonto mit maximalen Zugriffsrechten ausstatten:
 ```
 Email: anna@svensson.com
 Name: Anna Svensson
-Description: Designer
+Description: Entwickler und Designer
 Language: de
 Access: create, edit, delete, restore, upload, configure, update
 Home: /

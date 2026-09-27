@@ -81,7 +81,7 @@ Configuring a user account with maximum user access rights:
 ```
 Email: anna@svensson.com
 Name: Anna Svensson
-Description: Designer
+Description: Developer and designer
 Language: en
 Access: create, edit, delete, restore, upload, configure, update
 Home: /
