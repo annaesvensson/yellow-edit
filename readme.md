@@ -180,7 +180,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditUserHashCost` = hash cost used for encrypted password  
 `EditUserAccess` = default user access rights for new user account  
 `EditUserHome` = default home page location for new user account  
-`EditLoginRestriction` = enable login restriction, 1 or 0  
+`EditLoginRestriction` = enable login page restriction, 1 or 0  
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
 

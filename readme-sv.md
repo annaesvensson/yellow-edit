@@ -180,7 +180,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditUserHashCost` = hash-kostnad som används för krypterat lösenord  
 `EditUserAccess` = standard användarrättigheter för nytt användarkonto  
 `EditUserHome` = standardplats för hemsidan för nytt användarkonto  
-`EditLoginRestriction` = aktivera inloggningsbegränsning, 1 eller 0  
+`EditLoginRestriction` = aktivera inloggningssidabegränsning, 1 eller 0  
 `EditLoginSessionTimeout` = giltighet av inloggning i sekunder  
 `EditBruteForceProtection` = antal misslyckade inloggningsförsök  
 
