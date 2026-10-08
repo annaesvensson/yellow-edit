@@ -173,7 +173,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditUploadExtensions` = file extensions for upload, `none` to disable  
 `EditKeyboardShortcuts` = keyboard shortcuts and commands, `none` to disable  
 `EditToolbarButtons` = toolbar buttons, `auto` for automatic detection, [supported buttons](#settings-toolbar)  
-`EditEndOfLine` = line endings, e.g. `auto`, `lf`, `crlf`  
+`EditEndOfLine` = line ending of text files, e.g. `auto`, `lf`, `crlf`  
 `EditNewFile` = content file for new page  
 `EditUserPasswordMinLength` = minimum length of passwords  
 `EditUserHashAlgorithm` = hash algorithm used for encrypted password  

@@ -173,7 +173,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditUploadExtensions` = Dateiendungen zum Hochladen, `none` um zu deaktivieren  
 `EditKeyboardShortcuts` = Tastaturkürzel und Befehle, `none` um zu deaktivieren  
 `EditToolbarButtons` = Symbolleistenschaltflächen, `auto` für automatische Erkennung, [unterstützte Schaltflächen](#einstellungen-toolbar)  
-`EditEndOfLine` = Zeilenenden, z.B. `auto`, `lf`, `crlf`  
+`EditEndOfLine` = Zeilenenden von Textdateien, z.B. `auto`, `lf`, `crlf`  
 `EditNewFile` = Inhaltsdatei für neue Seite  
 `EditUserPasswordMinLength` = Mindestlänge von Kennwörtern  
 `EditUserHashAlgorithm` = Hash-Algorithmus für verschlüsseltes Kennwort  
