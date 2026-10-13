@@ -117,7 +117,7 @@ Email: english@example.com
 Name: Demo
 Description: For testing website
 Language: en
-Access: edit, upload
+Access: edit
 Home: /demo/
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: 1a1d1699df534913a823

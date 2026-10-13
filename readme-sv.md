@@ -117,7 +117,7 @@ Email: svenska@example.com
 Name: Demo
 Description: För att testa webbplatsen
 Language: sv
-Access: edit, upload
+Access: edit
 Home: /demo/
 Hash: $2y$10$zG5tycOnAJ5nndGfEQhrBexVxNYIvepSWYd1PdSb1EPJuLHakJ9Ri
 Stamp: 3a3d21197d54186d7e85
