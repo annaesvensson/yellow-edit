@@ -1,4 +1,4 @@
-# Edit 1.0.2
+# Edit 1.0.3
 
 Edit your website in a web browser. Developed by Anna Svensson.
 

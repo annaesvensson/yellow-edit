@@ -1,4 +1,4 @@
-# Edit 1.0.2
+# Edit 1.0.3
 
 Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson.
 

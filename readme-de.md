@@ -1,4 +1,4 @@
-# Edit 1.0.2
+# Edit 1.0.3
 
 Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson.
 
