@@ -145,6 +145,42 @@ EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, em
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 ```
 
+Erweiterungsdatei für Schutz gegen schlechte Kennwörter:
+
+```
+<?php
+// Example extension, https://github.com/annaesvenson/yellow-example
+
+class YellowExample {
+    const VERSION = "1.0.6";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle validation
+    public function onValidate($action, $data) {
+        $status = null;
+        if ($action=="edit" && !is_string_empty($data["password"])) {
+            if ($data["action"]=="add" || $data["action"]=="change" || $data["action"]=="signup" ||
+                $data["action"]=="recover" || $data["action"]=="account") {
+                $fileName = $this->yellow->system->get("coreExtensionDirectory")."bad-passwords.txt";
+                $fileData = $this->yellow->toolbox->readFile($fileName);
+                foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
+                    if (trim($line)==$data["password"]) {
+                        $status = "weak";
+                        break;
+                    }
+                }
+            }
+        }
+        return $status;
+    }
+}
+```
+
 Vorhandene Benutzerkonten in der Befehlszeile anzeigen:
 
 `php yellow.php user`  
