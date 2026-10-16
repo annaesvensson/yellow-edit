@@ -1,4 +1,4 @@
-# Edit 1.0.3
+# Edit 1.0.4
 
 Webseite im Webbrowser bearbeiten. Entwickelt von Anna Svensson.
 
@@ -180,6 +180,7 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `EditUserHashCost` = Hash-Kosten für verschlüsseltes Kennwort  
 `EditUserAccess` = Standard-Zugriffsrechte für neues Benutzerkonto  
 `EditUserHome` = Standard-Startseite für neues Benutzerkonto  
+`EditUserDailyLimit` = Anzahl der erlaubten neuen Benutzerkonten pro Tag, 0 für unbegrenzt  
 `EditLoginRestriction` = Anmeldeseitebeschränkung aktivieren, 1 oder 0  
 `EditLoginSessionTimeout` = Gültigkeit der Anmeldung in Sekunden  
 `EditBruteForceProtection` = Anzahl fehlgeschlagener Anmeldeversuche  

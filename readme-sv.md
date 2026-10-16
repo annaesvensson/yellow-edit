@@ -1,4 +1,4 @@
-# Edit 1.0.3
+# Edit 1.0.4
 
 Redigera din webbplats i en webbläsare. Utvecklad av Anna Svensson.
 
@@ -180,6 +180,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `EditUserHashCost` = hash-kostnad som används för krypterat lösenord  
 `EditUserAccess` = standard användarrättigheter för nytt användarkonto  
 `EditUserHome` = standardplats för hemsidan för nytt användarkonto  
+`EditUserDailyLimit` = antal tillåtna nya användarkonton per dag, 0 för obegränsad  
 `EditLoginRestriction` = aktivera inloggningssidabegränsning, 1 eller 0  
 `EditLoginSessionTimeout` = giltighet av inloggning i sekunder  
 `EditBruteForceProtection` = antal misslyckade inloggningsförsök  

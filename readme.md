@@ -1,4 +1,4 @@
-# Edit 1.0.3
+# Edit 1.0.4
 
 Edit your website in a web browser. Developed by Anna Svensson.
 
@@ -180,6 +180,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `EditUserHashCost` = hash cost used for encrypted password  
 `EditUserAccess` = default user access rights for new user account  
 `EditUserHome` = default home page location for new user account  
+`EditUserDailyLimit` = number of new user accounts allowed per day, 0 for unlimited  
 `EditLoginRestriction` = enable login page restriction, 1 or 0  
 `EditLoginSessionTimeout` = validity of login in seconds  
 `EditBruteForceProtection` = number of failed login attempts  
