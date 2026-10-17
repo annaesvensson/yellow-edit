@@ -145,7 +145,7 @@ EditToolbarButtons: format, bold, italic, separator, quote, code, link, file, em
 EditToolbarButtons: bold, italic, h1, h2, h3, code, quote, ul, ol, tl, link, file, preview, help
 ```
 
-Tilläggsfil för skydd mot dåliga lösenord:
+Tillägsfil för egen lista över dåliga lösenord:
 
 ```
 <?php
@@ -164,15 +164,12 @@ class YellowExample {
     public function onValidate($action, $data) {
         $status = null;
         if ($action=="edit" && !is_string_empty($data["password"])) {
-            if ($data["action"]=="add" || $data["action"]=="change" || $data["action"]=="signup" ||
-                $data["action"]=="recover" || $data["action"]=="account") {
-                $fileName = $this->yellow->system->get("coreExtensionDirectory")."bad-passwords.txt";
-                $fileData = $this->yellow->toolbox->readFile($fileName);
-                foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
-                    if (trim($line)==$data["password"]) {
-                        $status = "weak";
-                        break;
-                    }
+            $fileName = $this->yellow->system->get("coreExtensionDirectory")."bad-passwords.txt";
+            $fileData = $this->yellow->toolbox->readFile($fileName);
+            foreach ($this->yellow->toolbox->getTextLines($fileData) as $line) {
+                if (trim($line)==$data["password"]) {
+                    $status = "weak";
+                    break;
                 }
             }
         }
